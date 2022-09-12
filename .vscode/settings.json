@@ -1,0 +1,74 @@
+{
+    "[git-commit]": {
+        "editor.rulers": [
+            {
+                "color": "#007a41",
+                "column": 50
+            },
+            {
+                "color": "#ad1a00",
+                "column": 72
+            }
+        ],
+        "editor.wordWrap": "off"
+    },
+    "[python]": {
+        "editor.rulers": [
+            {
+                "color": "#ad1a00",
+                "column": 120
+            }
+        ],
+        "editor.wordWrap": "off"
+    },
+    "cSpell.words": [
+        "mutmut",
+        "pytest",
+        "hammett"
+    ],
+    "debug.console.collapseIdenticalLines": false,
+    "diffviewer.drawFileList": false,
+    "diffviewer.outputFormat": "side-by-side",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "explorer.compactFolders": false,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.dm": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mutmut-cache": true,
+        "**/.coverage": true
+    },
+    "files.insertFinalNewline": true,
+    "markdownlint.config": {
+        "default": true,
+        "no-inline-html": false
+    },
+    "python.linting.enabled": true,
+    "scm.defaultViewMode": "tree",
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#b80505",
+            "color": "#fff",
+            "overviewRulerColor": "rgba(240,98,146,0.8)",
+            "text": "FIXME"
+        },
+        {
+            "backgroundColor": "#d36b03",
+            "color": "#fff",
+            "overviewRulerColor": "rgba(255,189,42,0.8)",
+            "text": "TODO"
+        }
+    ],
+    "trailing-spaces.trimOnSave": true,
+    "python.testing.pytestArgs": [
+        "src/tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
