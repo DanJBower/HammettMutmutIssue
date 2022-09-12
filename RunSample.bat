@@ -3,6 +3,14 @@ setlocal
 
 cd "%~dp0"
 
+@REM Run File 1 with PyTest to show it works normally
+IF EXIST .mutmut-cache DEL .mutmut-cache
+mutmut run --paths-to-mutate src/sample/some_file.py --tests-dir src/tests --simple-output --rerun-all
+
+@REM Run File 2 with PyTest to show it works normally
+IF EXIST .mutmut-cache DEL .mutmut-cache
+mutmut run --paths-to-mutate src/sample/some_other_file.py --tests-dir src/tests --simple-output --rerun-all
+
 @REM Run with PyTest to show it works normally
 IF EXIST .mutmut-cache DEL .mutmut-cache
 mutmut run --paths-to-mutate src/sample --tests-dir src/tests --simple-output --rerun-all
